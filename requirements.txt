@@ -1,7 +1,7 @@
-streamlit==1.49.1
+streamlit
 tensorflow-cpu==2.20.0
-numpy==2.2.6
-pillow==11.3.0
-scikit-learn==1.7.1
-matplotlib==3.10.6
-pandas==2.3.2
+numpy
+pillow
+scikit-learn
+matplotlib
+pandas
