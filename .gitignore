@@ -47,9 +47,7 @@ chest-xray/
 # ==============================
 # Machine Learning Models
 # ==============================
-*.keras
-*.h5
-*.hdf5
+
 *.ckpt
 *.pb
 
