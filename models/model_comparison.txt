@@ -1,0 +1,28 @@
+BASELINE CNN VS WEIGHTED CNN
+============================================================
+
+Baseline Accuracy: 84.78%
+Weighted Accuracy: 79.49%
+
+Baseline Precision: 0.8186
+Weighted Precision: 0.7569
+
+Baseline Recall: 0.9718
+Weighted Recall: 0.9897
+
+Baseline F1: 0.8886
+Weighted F1: 0.8578
+
+Baseline ROC-AUC: 0.9314
+Weighted ROC-AUC: 0.9334
+
+Baseline Specificity: 0.6410
+Weighted Specificity: 0.4701
+
+BASELINE CONFUSION MATRIX
+[[150  84]
+ [ 11 379]]
+
+WEIGHTED CONFUSION MATRIX
+[[110 124]
+ [  4 386]]

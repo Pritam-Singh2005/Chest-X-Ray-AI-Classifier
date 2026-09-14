@@ -1,0 +1,28 @@
+WEIGHTED CNN TEST RESULTS
+==================================================
+
+Test Accuracy: 0.7949
+Test Accuracy (%): 79.49%
+F1 Score: 0.8578
+ROC-AUC: 0.9334
+Precision: 0.7569
+Recall / Sensitivity: 0.9897
+Specificity: 0.4701
+
+True Negative: 110
+False Positive: 124
+False Negative: 4
+True Positive: 386
+
+
+CLASSIFICATION REPORT
+==================================================
+
+              precision    recall  f1-score   support
+
+      NORMAL     0.9649    0.4701    0.6322       234
+   PNEUMONIA     0.7569    0.9897    0.8578       390
+
+    accuracy                         0.7949       624
+   macro avg     0.8609    0.7299    0.7450       624
+weighted avg     0.8349    0.7949    0.7732       624

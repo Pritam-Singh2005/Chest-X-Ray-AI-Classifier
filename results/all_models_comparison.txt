@@ -1,0 +1,79 @@
+==========================================================================================
+CHEST X-RAY CLASSIFICATION
+FINAL COMPARISON OF ALL 4 MODELS
+==========================================================================================
+
+Test Dataset: C:\Users\ps879\Downloads\chest_xray\chest_xray\test
+
+Models evaluated:
+1. Baseline CNN
+2. Weighted CNN
+3. MobileNetV2 Transfer Learning
+4. MobileNetV2 Fine-Tuned
+
+==========================================================================================
+RESULTS
+==========================================================================================
+
+Baseline CNN
+--------------------------------------------------
+Accuracy    : 0.8478
+Precision   : 0.8186
+Recall      : 0.9718
+F1 Score    : 0.8886
+ROC-AUC     : 0.9314
+Specificity : 0.6410
+
+Confusion Matrix:
+[[150  84]
+ [ 11 379]]
+
+Weighted CNN
+--------------------------------------------------
+Accuracy    : 0.7949
+Precision   : 0.7569
+Recall      : 0.9897
+F1 Score    : 0.8578
+ROC-AUC     : 0.9334
+Specificity : 0.4701
+
+Confusion Matrix:
+[[110 124]
+ [  4 386]]
+
+MobileNetV2 Transfer
+--------------------------------------------------
+Accuracy    : 0.7837
+Precision   : 0.8228
+Recall      : 0.8333
+F1 Score    : 0.8280
+ROC-AUC     : 0.8741
+Specificity : 0.7009
+
+Confusion Matrix:
+[[164  70]
+ [ 65 325]]
+
+MobileNetV2 Fine-Tuned
+--------------------------------------------------
+Accuracy    : 0.8830
+Precision   : 0.8729
+Recall      : 0.9513
+F1 Score    : 0.9104
+ROC-AUC     : 0.9583
+Specificity : 0.7692
+
+Confusion Matrix:
+[[180  54]
+ [ 19 371]]
+
+==========================================================================================
+BEST MODEL BY METRIC
+==========================================================================================
+
+ACCURACY       : MobileNetV2 Fine-Tuned (0.8830)
+PRECISION      : MobileNetV2 Fine-Tuned (0.8729)
+RECALL         : Weighted CNN (0.9897)
+F1             : MobileNetV2 Fine-Tuned (0.9104)
+ROC_AUC        : MobileNetV2 Fine-Tuned (0.9583)
+SPECIFICITY    : MobileNetV2 Fine-Tuned (0.7692)

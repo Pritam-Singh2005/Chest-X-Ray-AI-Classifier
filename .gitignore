@@ -1,0 +1,88 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ==============================
+# Virtual Environment
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+secrets.toml
+
+# ==============================
+# API Keys / Credentials
+# ==============================
+*api_key*
+*apikey*
+*secret*
+*token*
+*credential*
+credentials.json
+service-account*.json
+
+# ==============================
+# Datasets
+# ==============================
+dataset/
+datasets/
+data/
+chest_xray/
+chest-xray/
+*.zip
+
+# ==============================
+# Machine Learning Models
+# ==============================
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs / Temporary
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Windows
+# ==============================
+*.lnk

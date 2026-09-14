@@ -1,0 +1,23 @@
+MOBILENETV2 TEST RESULTS
+==================================================
+
+Accuracy: 0.7837
+Precision: 0.8228
+Recall: 0.8333
+F1 Score: 0.8280
+ROC-AUC: 0.8741
+Specificity: 0.7009
+
+Confusion Matrix:
+[[164  70]
+ [ 65 325]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      NORMAL       0.72      0.70      0.71       234
+   PNEUMONIA       0.82      0.83      0.83       390
+
+    accuracy                           0.78       624
+   macro avg       0.77      0.77      0.77       624
+weighted avg       0.78      0.78      0.78       624
